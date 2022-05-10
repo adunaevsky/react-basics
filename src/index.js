@@ -8,10 +8,12 @@ import Ref from './Ref'
 import LayoutEff from './LayoutEffect';
 import Imperative from './Imperative';
 import Context from './Context';
+import Memo from './Memo';
+import Callback from './Callback'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Context />
+    <Callback />
 );
 
 
